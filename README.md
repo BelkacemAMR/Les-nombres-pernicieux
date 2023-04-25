@@ -6,7 +6,7 @@ Ce programme en Python permet de calculer le nombre de nombres pernicieux dans u
 
 Un nombre est dit "pernicieux" s'il a un nombre premier de facteurs premiers impairs.
 
-## Comment utiliser le programme
+## Comment utiliser le programme ? 
 
 Le programme se compose de deux fonctions : "isPrime(n)" et "countPerniciousNumbers(x, y)".
 
@@ -16,6 +16,8 @@ La fonction "countPerniciousNumbers(x, y)" prend deux arguments x et y, qui déf
 La fonction utilise une boucle pour parcourir tous les nombres de x à y. Pour chaque nombre, elle calcule le nombre de facteurs premiers impairs en utilisant une boucle imbriquée. Si ce nombre de facteurs premiers impairs est lui-même premier, alors le nombre est pernicieux et le compteur est incrémenté. Enfin, la fonction renvoie le nombre total de nombres pernicieux dans l'intervalle.
 
 Pour utiliser le programme, vous pouvez ouvrir le fichier "pernicious_numbers.py" dans votre éditeur de code Python et exécuter la fonction "countPerniciousNumbers(x, y)" avec les arguments x et y de votre choix.
+
+### Exemple d'utilisation du programme : 
 
 Voici un exemple de code qui utilise la fonction "countPerniciousNumbers" pour calculer le nombre de nombres pernicieux dans l'intervalle [1, 100] :
 
