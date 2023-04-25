@@ -16,3 +16,7 @@ def countPerniciousNumbers(x, y):
         if isPrime(factors):
             count += 1
     return count
+
+# Exemple d'utilisation:
+
+print(countPerniciousNumbers(1, 100))
