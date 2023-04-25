@@ -26,3 +26,5 @@ count = countPerniciousNumbers(1, 100)
 print(f"Nombre de nombres pernicieux dans l'intervalle [1, 100] : {count}")
 ```
 
+## Contributions
+Si vous avez des suggestions pour améliorer ce programme, n'hésitez pas à créer une nouvelle branche, à apporter vos modifications et à soumettre une demande d'extraction (pull request).
